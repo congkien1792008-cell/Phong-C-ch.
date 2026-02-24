@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Phương Mỹ Chi Fanpage</title>
+
+<style>
+html{scroll-behavior:smooth;}
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background: linear-gradient(135deg,#0d6efd,#66c2ff);
+    line-height:1.6;
+}
+
+
+header{
+    background:#0b5ed7;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+
+nav{
+    background:#083c9c;
+    text-align:center;
+    padding:12px;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    margin:14px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:yellow;
+    transform:scale(1.1);
+}
+
+
+section{
+    background:white;
+    width:85%;
+    margin:35px auto;
+    padding:30px;
+    border-radius:14px;
+    box-shadow:0 5px 14px rgba(0,0,0,0.2);
+
+    opacity:0;
+    transform:translateY(40px);
+    animation:fadeIn 1s forwards;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+h2{
+    color:#0b5ed7;
+}
+
+
+img{
+    width:280px;
+    display:block;
+    margin:15px auto;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+img:hover{ transform:scale(1.05); }
+
+
+.gallery{
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.gallery img{ width:160px; }
+
+
+iframe{
+    width:100%;
+    height:360px;
+    border-radius:10px;
+}
+
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:#0b5ed7;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{ background:#083c9c; }
+
+
+footer{
+    background:#0b5ed7;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+.social-links{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:20px;
+}
+
+.social-links a{
+    background:#0b5ed7;
+    color:white;
+    padding:12px 20px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.social-links a:hover{
+    background:#083c9c;
+    transform:translateY(-4px) scale(1.05);
+}
+video{
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>PHƯƠNG MỸ CHI</h1>
+<p>Hành trình từ “Cô bé dân ca” đến nghệ sĩ Gen Z đa năng</p>
+</header>
+
+<nav>
+<a href="#gioithieu">Giới thiệu</a>
+<a href="#thongtin">Thông tin</a>
+<a href="#su-nghiep">Sự nghiệp</a>
+<a href="#sanpham">Âm nhạc</a>
+<a href="#giaithuong">Giải thưởng</a>
+<a href="#album">Album ảnh</a>
+<a href="#video">Video</a>
+<a href="#lienhe">Liên hệ</a>
+</nav>
+
+<section id="gioithieu">
+<h2>Giới thiệu chung</h2>
+<p>
+Phương Mỹ Chi là một trong những nghệ sĩ trẻ thành công nhất của V-pop hiện nay. 
+Cô gây ấn tượng mạnh với giọng hát ngọt ngào, truyền cảm và phong cách âm nhạc mang đậm màu sắc dân gian Việt Nam. 
+Không chỉ giữ gìn giá trị truyền thống, cô còn sáng tạo khi kết hợp yếu tố hiện đại để tạo nên bản sắc riêng biệt.
+</p>
+<img src="https://cafefcdn.com/203337114487263232/2025/7/15/anh-man-hinh-2025-07-15-luc-110317-1752552344557136910689-1752562135898-1752562136280612690907.png">
+</section>
+
+<section id="thongtin">
+<h2>Thông tin cá nhân</h2>
+<p>
+Ngày sinh: 13/01/2003<br>
+Quê quán: TP. Hồ Chí Minh<br>
+Biệt danh: “Chị Bảy”, “Cô bé dân ca”<br><br>
+Từ nhỏ, Phương Mỹ Chi đã bộc lộ năng khiếu ca hát và niềm đam mê với dân ca Nam Bộ. 
+Nhờ sự ủng hộ của gia đình, cô sớm tham gia các cuộc thi âm nhạc và dần khẳng định tài năng của mình.
+</p>
+<img src="https://cafefcdn.com/203337114487263232/2025/7/15/518273441-1274628944031324-4098671205852790255-n-1752552156753-17525521571891228797550-1752562151481-1752562151703442508373.jpg">
+</section>
+
+<section id="su-nghiep">
+<h2>Sự nghiệp nổi bật</h2>
+<p>
+Năm 2013, cô trở thành Á quân Giọng hát Việt Nhí và lập tức gây sốt với ca khúc “Quê em mùa nước lũ”.  
+Sau đó, cô tiếp tục phát triển với nhiều sản phẩm dân ca, bolero.  
+Từ năm 2023, cô mạnh dạn thay đổi hình ảnh, theo đuổi phong cách Folktronica – sự kết hợp giữa dân gian và điện tử.  
+Sự “lột xác” này giúp cô tiếp cận khán giả trẻ và mở rộng thị trường âm nhạc.
+</p>
+<img src="https://cafefcdn.com/203337114487263232/2025/7/15/anh-man-hinh-2025-07-15-luc-110733-1752552484567869013622-1752562155900-17525621560881005758144.png">
+</section>
+
+<section id="sanpham">
+<h2>Sản phẩm âm nhạc tiêu biểu</h2>
+<ul>
+<li>Quê em mùa nước lũ</li>
+<li>Còn thương rau đắng mọc sau hè</li>
+<li>Áo mới Cà Mau</li>
+<li>Vũ trụ có anh</li>
+<li>Đẩy xe bò</li>
+<li>Bóng phù hoa</li>
+<li>Những ngôi sao xa xôi</li>
+</ul>
+</section>
+
+<section id="giaithuong">
+<h2>Giải thưởng & thành tựu</h2>
+<p>
+✔ Quán quân Em xinh say hi (2025)  
+✔ Hạng 3 Sing! Asia 2025  
+✔ Ca sĩ đột phá – Làn Sóng Xanh  
+✔ Gương mặt trẻ tiêu biểu TP.HCM  
+✔ Giải thưởng quốc tế IMVA cho MV Made in Vietnam  
+<br><br>
+Những thành tích này cho thấy sự nỗ lực không ngừng của cô trong việc đổi mới bản thân và cống hiến cho âm nhạc.
+</p>
+</section>
+
+<section id="album">
+<h2>Album ảnh</h2>
+<div class="gallery">
+<img src="https://cafefcdn.com/203337114487263232/2025/7/15/503575860-1246019233558962-3624518439899088680-n-1752552164523-17525521647661907386358-1752562158115-17525621582711985790964.jpg">
+<img src="https://nguoiduatin.mediacdn.vn/thumb_w/930/84137818385850368/2025/3/27/dsc02268-3-5073-5300-17430642597421447131877-0-0-625-1000-crop-17430642769072093587319.jpg">
+<img src="https://media.vov.vn/sites/default/files/styles/large/public/2025-08/phuong_my_chi.png.jpg">
+</div>
+</section>
+
+<section id="video">
+<h2>Video biểu diễn</h2>
+
+<iframe
+src="https://www.youtube.com/embed/Z8JT5TNxmVE"
+allowfullscreen>
+</iframe></section>
+
+<section id="lienhe">
+<h2>Liên hệ</h2>
+<p>Nếu bạn yêu thích Phương Mỹ Chi, hãy gửi lời nhắn hoặc góp ý cho fanpage:</p>
+<input placeholder="Họ và tên">
+<input placeholder="Email">
+<textarea rows="4" placeholder="Nội dung"></textarea>
+<button>Gửi liên hệ</button>
+</section>
+<section id="ketnoi">
+<h2>Kết nối & Thông tin chi tiết</h2>
+
+<p style="text-align:center;">
+Theo dõi Phương Mỹ Chi trên các nền tảng chính thức hoặc đọc thêm thông tin đầy đủ:
+</p>
+
+<div class="social-links">
+
+<a href="https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_M%E1%BB%B9_Chi" target="_blank">📖 Wikipedia</a>
+
+<a href="https://www.youtube.com/results?search_query=Ph%C6%B0%C6%A1ng+M%E1%BB%B9+Chi+official" target="_blank">▶ YouTube</a>
+
+<a href="https://www.facebook.com/search/top?q=ph%C6%B0%C6%A1ng%20m%E1%BB%B9%20chi" target="_blank">📘 Facebook</a>
+
+<a href="https://www.tiktok.com/search?q=ph%C6%B0%C6%A1ng%20m%E1%BB%B9%20chi" target="_blank">🎵 TikTok</a>
+
+</div>
+</section>
+<footer>
+ Phương Mỹ Chi Phong Cếch 
+</footer>
+
+</body>
+</html>
